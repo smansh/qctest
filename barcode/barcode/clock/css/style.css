@@ -1,0 +1,31 @@
+/*
+ * Site : http:www.smarttutorials.net
+ * Author :muni
+ * 
+ */
+@font-face{
+font-family: 'Due';
+src: url('DUE.TTF');
+}
+@font-face{
+font-family: 'tracy';
+src: url('tracy-regular.ttf');
+}
+header{
+	background: #339966;
+	height: 70px;
+	color:#fff;
+}
+a{text-decoration: none;color: #fff;}
+header p{padding-top:20px;font-family: 'tracy';font-size: 25px;}
+footer{
+	background: #339966;
+	height: 100px;
+	color:#fff;
+}
+footer p{padding-top:50px;}
+.cal{margin:0 auto;padding: 5% 250px;}
+
+
+.cal-container{ font-family: 'Due'; color:#C77405;font-size:50px;}
+.format{ font-family: 'tracy'; color:#339966;font-size:40px;border-bottom: 2px solid #999;}
