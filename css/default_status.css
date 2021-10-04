@@ -1,0 +1,227 @@
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.center1 {
+  display: block;
+    position: relative;
+    margin: auto;
+  width: 50%;
+
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* led-gray1 */
+.led-gray1 {
+  margin: 0 auto;
+  background-color: #9A9897;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 480px;
+ left:890px;
+  border-radius: 50%;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray1 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+/* led-gray2 */
+.led-gray2 {
+  margin: 0 auto;
+  background-color: #9A9897;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 530px;
+ left:890px;
+  border-radius: 50%;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray2 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+/* led-gray3 */
+.led-gray3 {
+  margin: 0 auto;
+  background-color: #9A9897;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 480px;
+ left:935px;
+  border-radius: 50%;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray3 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+/* led-gray4 */
+.led-gray4 {
+  margin: 0 auto;
+  background-color: #9A9897;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 530px;
+ left:935px;
+  border-radius: 50%;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray4 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+/* led-gray5 */
+.led-gray5 {
+  margin: 0 auto;
+  background-color: #9A9897;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 480px;
+ left:972px;
+  border-radius: 50%;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray5 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+/* led-gray6 */
+.led-gray6 {
+  margin: 0 auto;
+  background-color: #9A9897;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 530px;
+ left:972px;
+  border-radius: 50%;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray6 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+/* led-gray7 */
+.led-gray7 {
+  margin: 0 auto;
+  background-color: #9A9897;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 480px;
+ left:1014px;
+  border-radius: 50%;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray7 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+/* led-gray8 */
+.led-gray8 {
+  margin: 0 auto;
+  background-color: #9A9897;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 530px;
+ left:1014px;
+  border-radius: 50%;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray8 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */

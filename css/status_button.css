@@ -1,0 +1,1102 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+  width: 60%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height:auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.led-gray1 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 69%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #9A9897;
+
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray1 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+.led-green1 {
+width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 69%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #07F8 0 2px 12px;
+  -webkit-animation: blinkYellow 1s infinite;
+  -moz-animation: blinkYellow 1s infinite;
+  -ms-animation: blinkYellow 1s infinite;
+  -o-animation: blinkYellow 1s infinite;
+  animation: blinkYellow 1s infinite;
+}
+
+@-webkit-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-moz-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-ms-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-o-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+
+/*end here */
+
+.led-red1 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 69%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkgreen 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+/* end here */
+
+.led-gray2 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 69%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #9A9897;
+
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray2 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+.led-green2 {
+width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 69%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #07F8 0 2px 12px;
+  -webkit-animation: blinkYellow 1s infinite;
+  -moz-animation: blinkYellow 1s infinite;
+  -ms-animation: blinkYellow 1s infinite;
+  -o-animation: blinkYellow 1s infinite;
+  animation: blinkYellow 1s infinite;
+}
+
+@-webkit-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-moz-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-ms-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-o-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+
+/*end here */
+.led-red2 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 69%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkgreen 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+/* end here */
+
+.led-gray3 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 74%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #9A9897;
+
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray3 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+.led-green3 {
+width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 74%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #07F8 0 2px 12px;
+  -webkit-animation: blinkYellow 1s infinite;
+  -moz-animation: blinkYellow 1s infinite;
+  -ms-animation: blinkYellow 1s infinite;
+  -o-animation: blinkYellow 1s infinite;
+  animation: blinkYellow 1s infinite;
+}
+
+@-webkit-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-moz-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-ms-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-o-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+
+/*end here */
+.led-red3 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 74%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkgreen 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+/* end here */
+
+.led-gray4 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 74%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #9A9897;
+
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray4 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+.led-green4 {
+width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 74%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #07F8 0 2px 12px;
+  -webkit-animation: blinkYellow 1s infinite;
+  -moz-animation: blinkYellow 1s infinite;
+  -ms-animation: blinkYellow 1s infinite;
+  -o-animation: blinkYellow 1s infinite;
+  animation: blinkYellow 1s infinite;
+}
+
+@-webkit-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-moz-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-ms-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-o-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+
+/*end here */
+.led-red4 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 74%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkgreen 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+/* end here */
+
+.led-gray5 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 79%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #9A9897;
+
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray5 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+.led-green5 {
+width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 79%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #07F8 0 2px 12px;
+  -webkit-animation: blinkYellow 1s infinite;
+  -moz-animation: blinkYellow 1s infinite;
+  -ms-animation: blinkYellow 1s infinite;
+  -o-animation: blinkYellow 1s infinite;
+  animation: blinkYellow 1s infinite;
+}
+
+@-webkit-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-moz-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-ms-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-o-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+
+/*end here */
+.led-red5 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 79%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkgreen 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+/* end here */
+
+.led-gray6 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 79%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #9A9897;
+
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray6 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+.led-green6 {
+width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 79%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #07F8 0 2px 12px;
+  -webkit-animation: blinkYellow 1s infinite;
+  -moz-animation: blinkYellow 1s infinite;
+  -ms-animation: blinkYellow 1s infinite;
+  -o-animation: blinkYellow 1s infinite;
+  animation: blinkYellow 1s infinite;
+}
+
+@-webkit-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-moz-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-ms-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-o-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+
+/*end here */
+.led-red6 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 79%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkgreen 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+/* end here */
+
+.led-gray7 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 85%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #9A9897;
+
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray7 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+.led-green7 {
+width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 85%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #07F8 0 2px 12px;
+  -webkit-animation: blinkYellow 1s infinite;
+  -moz-animation: blinkYellow 1s infinite;
+  -ms-animation: blinkYellow 1s infinite;
+  -o-animation: blinkYellow 1s infinite;
+  animation: blinkYellow 1s infinite;
+}
+
+@-webkit-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-moz-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-ms-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-o-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+
+/*end here */
+.led-red7 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 18%;
+      left: 85%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkgreen 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+/* end here */
+
+
+.led-gray8 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 85%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #9A9897;
+
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #9A9897;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 12px;
+        }
+        50% { background-color: #C0C0C0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808080 0 -1px 9px, rgba(60, 57, 57, 0.05) 0 2px 0;}
+            to { background-color: #D3D3D3; }
+
+      }
+      .led-gray8 {
+        animation: glowing 0.5s infinite;
+      }
+
+/*end here */
+
+.led-green8 {
+width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 85%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #07F8 0 2px 12px;
+  -webkit-animation: blinkYellow 1s infinite;
+  -moz-animation: blinkYellow 1s infinite;
+  -ms-animation: blinkYellow 1s infinite;
+  -o-animation: blinkYellow 1s infinite;
+  animation: blinkYellow 1s infinite;
+}
+
+@-webkit-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-moz-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-ms-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@-o-keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+@keyframes blinkYellow {
+    from { background-color: #07F835; }
+    50% { background-color: #069F; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #069F 0 2px 0; }
+    to { background-color: #07F835; }
+}
+
+/*end here */
+.led-red8 {
+  width: 30px;
+  height: 30px;
+transform: translate(-50%, -50%);
+
+-ms-transform: translate(-50%, -50%);
+
+position: absolute;
+      top: 40%;
+      left: 85%;
+cursor: pointer;
+padding: 15px 15px;
+
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkgreen 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+/* end here */
